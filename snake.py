@@ -301,7 +301,7 @@ def help_mode_TimerFired(data):
 
 
 def help_mode_RedrawAll(canvas, data):
-    canvas.create_text(data.width / 2, data.height / 2 - 100, text='HELP DESK: \n Move snake in all directions using \n arrow keys to find food. \n Make sure the snake does not \n touch the wall as the snake \n dies and game will be over. \n ALL THE BEST', font='Calibri 15')
+    canvas.create_text(data.width / 2, data.height / 2 - 100, text='HELP DESK: \n Move snake in all directions using arrow keys to find food. \n Make sure the snake does not touch the wall as the snake \n dies and game will be over. \n ALL THE BEST', font='Calibri 15')
     canvas.create_text(data.width / 2, data.height / 2 + 100, text='Press q to quit help mode')
 
 
